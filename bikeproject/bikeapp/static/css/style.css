@@ -651,7 +651,7 @@ section {
 }
 .about .icon-boxes h3 {
   font-size: 28px;
-  font-weight: 700;
+  font-weight: 500;
   color: #010483;
   margin-bottom: 15px;
 }
@@ -1371,7 +1371,7 @@ section {
 # Footer
 --------------------------------------------------------------*/
 #footer {
-  background: #60C2E0;
+  background: #67B7FD;
   padding: 0 0 30px 0;
   color: #fff;
   font-size: 14px;
@@ -1383,7 +1383,7 @@ section {
 /* 출처 박스 */
 #footer .footer-top .footer-info {
   margin-bottom: 15px;
-  background: #60b5d0;
+  background: #67B7FD;
   color: #fff;
   border-top: 4px solid #00fb9f;
   text-align: center;
@@ -1504,4 +1504,79 @@ section {
   #footer .footer-top .footer-info {
     margin: -20px 0 30px 0;
   }
+}
+
+.bg{
+  width: 100%;
+  height:auto;
+  min-height:100vh;
+  background-color: linear-gradient(#ffffff 0%, #67B7FD 100%);
+  background-image:url(http://i.imgur.com/w16HASj.png);
+  background-size: 100% 100%;
+  background-position: top center;
+}
+
+.content{
+margin-top: 20%;
+}
+
+.centered {
+position: absolute;
+top: 40%;
+left: 50%;
+transform: translate(-50%, -50%);
+}
+
+.InputStyle{
+border-radius: 25px;
+border: solid 1px black;
+background: transparent;
+width: 200px;
+height: 30px;
+padding: 10px 20px;
+}
+
+
+
+input,input::-webkit-input-placeholder {
+  font-size: 12px;
+  color:black;
+}
+
+.social-btn{
+position: absolute; 
+bottom: 20px;
+left: 47%;
+}
+
+i{
+padding:5px;
+color:rgba(91, 196, 228, 0.91);
+}
+
+input, input:focus{
+border: solid 1px black;
+      outline:0; 
+      -webkit-appearance:none;
+      box-shadow: nones;
+      -moz-box-shadow: none;
+      -webkit-box-shadow: none;
+}
+
+.secondLine{
+font-weight: 350;
+font-size:15px;
+margin-bottom: 10%;
+color: rgba(91, 196, 228, 0.91);
+}
+
+.firstLine{
+font-size: 30px;
+color: rgba(91, 196, 228, 0.91);
+}
+
+@media only screen and (max-width: 600px) {
+.firstLine{
+font-size: 20px;
+}
 }
