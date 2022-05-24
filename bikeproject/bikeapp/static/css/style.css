@@ -1367,6 +1367,8 @@ section {
   }
 }
 
+
+
 /*--------------------------------------------------------------
 # Footer
 --------------------------------------------------------------*/
@@ -1506,12 +1508,14 @@ section {
   }
 }
 
+/* mapfind 백그라운드 */
+
 .bg{
   width: 100%;
   height:auto;
   min-height:100vh;
-  background-color: linear-gradient(#ffffff 0%, #67B7FD 100%);
-  background-image:url(http://i.imgur.com/w16HASj.png);
+  background: linear-gradient(#f9f9f9 0%, #67B7FD 100%);
+  /* background-image:url(http://i.imgur.com/w16HASj.png); */
   background-size: 100% 100%;
   background-position: top center;
 }
@@ -1563,17 +1567,21 @@ border: solid 1px black;
       -webkit-box-shadow: none;
 }
 
+/* 출발지 도착지 글자색 */
 .secondLine{
 font-weight: 350;
 font-size:15px;
 margin-bottom: 10%;
 color: rgba(91, 196, 228, 0.91);
 }
+/* 출발지 도착지 글자색 */
 
+/* 검색하세요 글자색 */
 .firstLine{
 font-size: 30px;
 color: rgba(91, 196, 228, 0.91);
 }
+/* 검색하세요 글자색 */
 
 @media only screen and (max-width: 600px) {
 .firstLine{
