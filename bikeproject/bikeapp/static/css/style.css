@@ -1555,7 +1555,7 @@ left: 47%;
 
 i{
 padding:5px;
-color:rgba(91, 196, 228, 0.91);
+color:black;
 }
 
 input, input:focus{
@@ -1572,14 +1572,14 @@ border: solid 1px black;
 font-weight: 350;
 font-size:15px;
 margin-bottom: 10%;
-color: rgba(91, 196, 228, 0.91);
+color: rgb(0, 0, 0);
 }
 /* 출발지 도착지 글자색 */
 
 /* 검색하세요 글자색 */
 .firstLine{
 font-size: 30px;
-color: rgba(91, 196, 228, 0.91);
+color: rgb(0, 0, 0);
 }
 
 
